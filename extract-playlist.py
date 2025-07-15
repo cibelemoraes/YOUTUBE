@@ -31,4 +31,21 @@ while True:
     ).execute()
 
     stats = video_response['items'][0]['statistics']
+#adicionando dados adicionais dos videos
     
+    playlistvideo.append({
+        'id_video': video_id,
+        'titulo': snippet['title'],
+        'description': snippet['description'],
+        'data_publicacao':snippet['publishedAt'],
+        'thumbnail_url': snippet['thumnails']['hight']['url'],
+        'Qt_likes': stats.get('Qt_likes', 0),
+        'Qt_view': stats.get('Qt_view', 0),
+        'Qt_comentarios': stats.get('Qt_comentarios', 0)
+        })
+    
+    nextPage_token = response.get('nextpagetoken')
+    if not nextPage_token:
+        break
+
+print("Total de vídeos da Playlist ", len(playlistvideo))
