@@ -1,2 +1,3 @@
-# Ignorar arquivos de chave do Google Cloud
-Projeto-API/steam-bonbon-466001-m7-446d81eac6c4.json
+# Ignorar chave do Google Cloud
+service_account.json
+steam-bonbon-466001-m7-b0c117e8f19c.json
