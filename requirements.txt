@@ -1,0 +1,10 @@
+
+google-cloud-bigquery
+google-auth
+google-auth-oauthlib
+google-auth-httplib2
+pyarrow
+python-dotenv
+google-api-python-client
+pandas
+jupyter
