@@ -1,4 +1,3 @@
-# 📊 Projeto de Extração e Análise de Dados do YouTube com Python e BigQuery
 
 # 📊 Projeto de Extração e Análise de Dados do YouTube com Python e BigQuery
 
